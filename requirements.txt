@@ -1,0 +1,17 @@
+streamlit
+yfinance
+pandas
+numpy
+plotly
+requests
+python-dotenv
+vaderSentiment
+praw
+pydantic
+langchain-core
+langchain-google-genai
+# --- only needed for other providers ---
+# langchain-openai            # for PROVIDER = "openai"
+# langchain-groq              # for PROVIDER = "groq"
+# langchain-huggingface       # for "groq" embeddings (local)
+# sentence-transformers       # for "groq" embeddings (local)
