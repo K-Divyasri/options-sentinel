@@ -12,7 +12,7 @@ load_dotenv()  # reads the .env file into environment variables
 # ============================================================
 #  CHOOSE YOUR PROVIDER HERE  --  "gemini" | "groq" | "openai"
 # ============================================================
-PROVIDER = "gemini"   # free, no credit card, does chat + embeddings
+PROVIDER = "groq"   # free, no credit card, does chat + embeddings
 
 # ---- Secrets (from .env — only the key for your chosen provider is needed) ----
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY", "")
